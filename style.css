@@ -83,13 +83,29 @@ button {
     color: #E5E7EB;
 }
 
+.randomInfo{
+    display: flex;
+    flex-direction: column;
+}
+
+.randomInfoText {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+
 .randomInfoSection {
     display: flex;
-    padding: 100px 200px;
+    margin: 50px 200px 100px;
+    color: #1F2937; 
 }
 
 .image {
     border: 3px solid;
+    border-radius: 15px;
     width: 150px;
     height: 150px;
     border-color: #3882F6;
@@ -99,6 +115,6 @@ button {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    margin: 10px;
-
+    margin: 20px;
+    text-align: center;
 }
