@@ -119,3 +119,19 @@ button {
     margin: 20px;
     text-align: center;
 }
+
+.quoteSection {
+    background-color: #E5E7EB;
+    padding: 100px 200px;
+    color: #1F2937;
+}
+
+.quoteSection > p {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quoter {
+    text-align: right;
+}
