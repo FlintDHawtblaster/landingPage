@@ -72,9 +72,8 @@ button {
     color: #E5E7EB;
     font-weight: bold;
     font-size: 18px;
-    padding: 8px 15px;
+    padding: 8px 40px;
     border-radius: 10px;
-    border: 0;
 }
 
 .headerImage {
@@ -134,4 +133,39 @@ button {
 
 .quoter {
     text-align: right;
+}
+
+.textAndButton {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    padding: 30px 80px;
+    margin: 100px 150px;
+    font-size: 18px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.textAndButton > p {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.signUp {
+    border: 0;
+}
+
+.signUp2 {
+    border: 2px solid #F9FAF8;
+}
+
+.footerSection {
+    background-color: #1F2937;
+    padding: 50px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
